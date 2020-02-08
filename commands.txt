@@ -1,0 +1,4 @@
+sudo docker build .
+sudo docker-compose build
+sudo docker images -a
+sudo docker-compose run app sh -c 'django-admin.py startproject app .'
